@@ -1,0 +1,45 @@
+#traffic-light {
+    height: 750px;
+    width: 200px;
+    border-radius: 40px;
+    margin-left: 600px;
+    transform: rotate(90deg);
+    background-color: beige;
+    padding-top: 50px;
+    margin-top: -100px;
+}
+
+.bulb {
+    height:100px;
+    width:100px;
+    background-color: #b7b7b7;
+    border-radius: 50%;
+    margin: 25px auto;    
+}
+
+#Start{
+    width: 120px;
+    margin-left:640px ;
+    
+}
+
+
+
+#red {
+
+    transform: rotate(-90deg); 
+    padding-left: 250px;
+    padding-top: 120px;
+}
+#yellow {
+
+    transform: rotate(-90deg); 
+    padding-left: 250px;
+    padding-top: 120px;
+}
+#green {
+
+    transform: rotate(-90deg); 
+    padding-left: 270px;
+    padding-top: 100px;
+}

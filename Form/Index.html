@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <label>Name</label>
+        <input type="text" placeholder="Enter Your Name" id="name"><br>
+        <p id="Npar"></p>
+        <br>
+        <br>
+
+        <label>Email</label>
+        <input type="text" placeholder="Enter Your Email" id="email"><br>
+        <p id="Epar"></p>
+        <br>
+        <br>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter Your Password" id="password"><br>
+        <p id="Ppar"></p>
+        <br>
+        <br>
+
+        <label> Gender </label>
+        <input type="radio" id="male"  value="Male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="Female" name="gender">
+        <label for="female">Female</label><br>
+        <p id="Gpar"></p>
+        <br>
+        <br>
+
+        <label > Sports </label>
+        <input type="checkbox" id="tennis" name="sports">
+        <label for="tennis"> Tennis</label>
+        <input type="checkbox" id="running" name="sports">
+        <label for="running"> Running</label>
+        <input type="checkbox" id="football" name="sports" >
+        <label for="football"> Football</label><br>
+        <p id="Spar"></p>
+        <br>
+        <br>
+        
+
+        <label >Country</label>
+        <select id="country">
+            <option value= -1></option>
+            <option value="Egypt">Egypt</option>
+            <option value="USA">USA</option>
+            <option value="UAE">UAE</option>
+            <option value="UK">UK</option>
+            <option value="KSA">KSA</option>
+        </select>
+        <br>
+        <p id="Cpar"></p>
+        <br><br>
+        <button id="submit">Submit</button>
+        <button id="reset">Reset</button>
+    </form>
+
+
+    <script src="Validate.js"></script>
+</body>
+</html>
